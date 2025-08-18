@@ -7,16 +7,6 @@ The project was written in Rust.
 ## Preview
 
     $ cd <project_root> 
-    $ cat ./poem.txt
-    I'm nobody! Who are you?
-    Are you nobody, too?
-    Then there's a pair of us - don't tell!
-    They'd banish us, you know.
-
-    How dreary to be somebody!
-    How public, like a frog
-    To tell your name the livelong day
-    To an admiring bog!
     $ cargo run -- to poem.txt
         Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.02s
          Running `target\debug\minigrep.exe to poem.txt`
@@ -46,7 +36,7 @@ Install missing libraries required for running the project (if any).
     cargo build
     
 ### Step 4: Run the application
-Run the application from the command-line. For quitting the application, type "4" and press Enter.
+Run the application from the command-line.
 
 ## Usage
     
